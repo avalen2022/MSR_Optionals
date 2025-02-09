@@ -84,7 +84,7 @@
     <joint name="body_to_top" type="continuous">
         <parent link="body_link"/>
         <child link="top_link"/>
-        <dynamics damping="0.0" friction="0.0001"/>
+        <dynamics damping="0.0" friction="0.05"/>
 
         <origin xyz="0.0 0.0 0.8"/>
         <axis xyz="0.0 0.0 1.0"/>
